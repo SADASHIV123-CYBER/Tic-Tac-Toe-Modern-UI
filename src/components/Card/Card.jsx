@@ -1,4 +1,5 @@
-import Icon from "../Icon/icon";
+// import Icon from "../Icon/icon";
+import Icon from '../Icon/Icon';
 import './Card.css';
 
 // card component
