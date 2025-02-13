@@ -3,6 +3,7 @@ import Card from "../Card/Card"
 import isWinner from "../helper/checkWinner";
 import './Grid.css'
 
+// grid component
 
 function Grid({numberOfCards}) {
     const [board, setBoard] = useState(Array(numberOfCards).fill(""));

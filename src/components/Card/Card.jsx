@@ -1,6 +1,8 @@
 import Icon from "../Icon/icon";
 import './Card.css';
 
+// card component
+
 function Card({ gameEnd, player, onPlay, index }) {
     let icon = <Icon />
 if(player == 'X') {

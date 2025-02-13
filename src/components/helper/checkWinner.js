@@ -1,3 +1,5 @@
+// this function checking winner
+
 function isWinner(board, symbol) {
     if(board[0] == board[1] && board[1] == board[2] && board[2] == symbol) return symbol
     if(board[3] == board[4] && board[4] == board[5] && board[5] == symbol) return symbol
